@@ -1,0 +1,15 @@
+1_
+display: flex;
+2_
+gap:20px;
+3_
+La diferencia de entre ellos es "la Posiciòn"
+4_
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-rows: 350px;
+5_
+display: flex; :diseño flexible
+display: grid; : diseño grilla
+6_
+align-items: center;
+justify-content
