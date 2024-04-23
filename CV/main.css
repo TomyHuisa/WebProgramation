@@ -1,0 +1,21 @@
+.alineamiento {  
+    display: flex;  /* PARA ACOMODAR*/
+}
+
+.caja-foto{
+    width: 30%;  /*ANCHO*/
+
+}
+
+.imagen-cv{
+    max-width: 260px; /* MAXIMA RESOLUCION(EN ANCHO) DE PIXELES, SI HAY LIMITES*/
+
+    height: 200px;  /* LARGO(SIN LIMITES)*/
+}
+
+.caja-titulo{
+    width: 75%;
+    color: blanchedalmond;  /* Para las letras*/
+    background-color: cornflowerblue;  /* fondo*/
+}
+
