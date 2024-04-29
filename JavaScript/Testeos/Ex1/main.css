@@ -1,0 +1,23 @@
+.background {
+    background-color: rgb(69, 46, 105);
+}
+
+.alineamientoTitle {
+    text-align: center;
+}
+
+.Tarjeta{
+    background-color:rgb(17, 17, 17);
+    border: 3px solid #2e1cce;
+    border-style: inset;
+    border-radius: 200px;
+}
+
+p {
+    color: azure;
+    font-size: 18px;
+}
+
+h1 {
+    color: azure;
+}
