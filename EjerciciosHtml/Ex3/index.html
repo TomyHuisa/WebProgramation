@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Pagina de Contacto</title>
+  </head>
+  <body>
+    <form autocomplete="off">  <!-- <autocomplete> es para que no te lo autocomplete 
+      x ejemplo: cuando ingresas tu nombre en iniciar sesion en una pagina y sueles 
+      ingregsar ahi, tonces te lo auto quiere completar tu nombre pero este comando lo
+      que hace es no autocompletar tu nombre-->
+      <h2>Conctato</h2>
+        <!--<div class="form-txt">
+        <a href="#">Politica de privacidad</a>
+        <a href="#">Terminos y condiciones</a>
+        </div>-->
+        <div class="input-group" autocomplete="off">
+
+          <input type="text" name ="Nombre" placeholder="Nombre">
+
+          <input type="tel" name="Telefono" placeholder="Telefono">
+        
+          <input type="email" name="email" placeholder="Email">
+
+          <textarea name="message" cols="30" rows="5" placeholder="Mensaje(opcional)"></textarea>
+        
+          <input class="btn" type="submit" value="Enviar">
+
+        </div>
+    </form>
+  </body>
+</html>

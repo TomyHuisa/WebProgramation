@@ -1,0 +1,21 @@
+.fotoReferente {
+    width: 75%;
+    aspect-ratio: 2 / 3; /*puede ser opcional-> darle esctrutura a la foto widescreen o retrato*/
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .Borde {
+    background-color: rgb(17, 17, 17);
+    border: 4px solid #2e1cce;
+    border-style: inset;
+    border-radius: 16px;
+  }
+  
+  header {
+    color: rgb(21, 44, 255); /* Para las letras*/
+  }
+  
+  .Espacio {
+    margin: 5px;
+    padding: 25px;
+  }

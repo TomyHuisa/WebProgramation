@@ -1,0 +1,61 @@
+body{/*modificar toda la fuente del formulario Osea toda la pantalla completa de la pagina*/
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17b6d6;
+  }
+  form { /*para darle estilo a un elemento de form*/
+      padding: 50px 55px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      border-radius: 20px; /*borde redondiado*/
+      text-align: center;
+      width: 340px;
+      background-color:#17b6d6;
+  }
+  form h2{ 
+    color:mediumblue;
+    font-size: 25px;
+    /*margin-bottom: 25px; es para espacio X(abscisa)*/ 
+  }
+  .input-group{ 
+    display: flex;
+    flex-direction: column;
+  }
+  input , textarea {
+    background-color:#14c9ee;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color:mediumblue;
+  }
+  ::placeholder{
+    color: mediumblue;
+    font-size: 15px;
+  }
+  :focus{
+    outline: 1px solid mediumblue ;
+  }
+  .btn{ /*darle estilo al boton*/
+    background-color:rgba(68, 81, 195, 0.876);
+    color:mediumblue;
+    font-size: 17px;
+    cursor:pointer; /*para al dar clic o antes de dar clic te aparecera la manito en ves de flecha*/
+  }
+  .btn:hover{ /*para cuando estemos apunto de dar clic te mostrara un color como si apretarias el boton*/
+    background-color:rgba(55, 68, 177, 0.835);
+  }
+  /*
+  .from-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  */
+  /*
+  .form-txt a:hover{ es para darle color al link de un enlace al darle clic
+    color:'color que elijas'; 
+  }
+  */
