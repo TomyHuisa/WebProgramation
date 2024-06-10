@@ -1,9 +1,10 @@
-import { MyImage } from "./components/FirstComponent/FirstComponent";
+import { Estado } from "./components/estado/Estado";
 
 function App() {
   return (
     <>
-      <MyImage name={"Tomy"} lastName={"Huisa"} />
+      <h1>Contador</h1>
+      <Estado />
     </>
   );
 }
